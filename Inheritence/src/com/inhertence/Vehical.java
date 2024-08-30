@@ -9,33 +9,53 @@ public class Vehical {
 	private int seats;
 	private int fueltank;
 	private String lights;
-		
-	public Vehical() {		
-		engine = "petrol";
-		wheels = 2;
-		seats = 1;
-		fueltank = 1;
-		lights = "white";		
+	
+	
+	public String run() {
+		return "Vehical Running";
 	}
+	
+	
+	
+	public Vehical(String engine, int wheels, int seats, int fueltank, String lights) {
+		super();
+		this.engine = engine;
+		this.wheels = wheels;
+		this.seats = seats;
+		this.fueltank = fueltank;
+		this.lights = lights;
+	}
+
+
 
 	public String getEngine() {
 		return engine;
 	}
 
+
+
 	public int getWheels() {
 		return wheels;
 	}
+
+
 
 	public int getSeats() {
 		return seats;
 	}
 
+
+
 	public int getFueltank() {
 		return fueltank;
 	}
 
+
+
 	public String getLights() {
 		return lights;
 	}
-			
+		
+	
+	
 }
