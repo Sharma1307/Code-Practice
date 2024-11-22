@@ -8,36 +8,21 @@ public class Main {
 	
 	ArrayList<String> list = new ArrayList<>();	
 	
-		list.add("Akash");
-		list.add("Anand");
-		list.add("Pooja");
-		list.add("Amit");
-		list.add("Rajveer");
-		
-		System.out.println(list);
-		
-		list.remove(2);
-		
-		list.remove("Akash");
-		
-		System.out.println(list);
-		
-		
-		list.set(0, "Rajveer");
-		
-		System.out.println(list);
-		
-		System.out.println(list.indexOf("Amit"));
-		
-		System.out.println(list.indexOf("Rajveer"));
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-
+	list.add("Red");
+	list.add("Blue");
+	list.add("Yellow");
+	list.add("Green");
+	list.add("Orange");
+	list.add("White");
+	
+//	for(int i = 0; i < list.size(); i++) 
+//	{
+//		System.out.println("This is the colour Array List "  + list.get(i));
+//	}
+//		
+	
+	
+	System.out.println(list);
+}
+	
 }
